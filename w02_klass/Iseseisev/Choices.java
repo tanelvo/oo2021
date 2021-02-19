@@ -1,13 +1,13 @@
 package Iseseisev;
 
 public class Choices {
-    public String syrup;
-    private CoffeType coffeType;
-    public int many;
-    public String size;
+    public String name;
+    public CoffeType coffeType;
+    public int many = 1;
+    public String size = "M";
 
-    public Syrup(String syrup, CoffeType coffeType){
-        this.syrup = syrup;
+    public Coffee(String name, CoffeType coffeType){
+        this.name = name;
         this.coffeType = coffeType;
         this.many = many;
         this.size = size;
