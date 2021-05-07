@@ -16,6 +16,8 @@ public class main {
         System.out.println(content);
         //printLastChar(content);
 
+        // Olen otsin parimat viisi ülesande lahenduseks
+
     }
     static void printLastChar(String str)
     {
