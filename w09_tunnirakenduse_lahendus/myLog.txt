@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-16T09:35:33.196813500Z</date>
+  <millis>1618565733196</millis>
+  <nanos>813500</nanos>
+  <sequence>0</sequence>
+  <logger>Example</logger>
+  <level>WARNING</level>
+  <class>Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>/ by zero</message>
+</record>
+<record>
+  <date>2021-04-16T09:35:33.246681100Z</date>
+  <millis>1618565733246</millis>
+  <nanos>681100</nanos>
+  <sequence>1</sequence>
+  <logger>Example</logger>
+  <level>SEVERE</level>
+  <class>Example</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Index 3 out of bounds for length 3</message>
+</record>
+</log>
